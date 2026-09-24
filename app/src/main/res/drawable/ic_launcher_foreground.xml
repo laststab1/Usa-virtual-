@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Calculator body rounded rectangle (within safe bounds x=26 to 82, y=24 to 84) -->
+    <path
+        android:fillColor="#1E293B"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2"
+        android:pathData="M32,24 L76,24 A8,8 0 0 1 84,32 L84,76 A8,8 0 0 1 76,84 L32,84 A8,8 0 0 1 24,76 L24,32 A8,8 0 0 1 32,24 Z" />
+    <!-- Display Screen -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M30,30 L78,30 A4,4 0 0 1 82,34 L82,44 A4,4 0 0 1 78,48 L30,48 A4,4 0 0 1 26,34 L26,34 A4,4 0 0 1 30,30 Z" />
+    <!-- Digits glow in display: 8 GB indicator -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M70,36 L76,36 L76,42 L70,42 Z M60,37 L66,37 L66,39 L60,39 Z M50,38 L54,38 L54,40 L50,40 Z" />
+    <!-- Keypad row 1 -->
+    <!-- Button 1 (C / AC) -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M30,52 L40,52 A3,3 0 0 1 43,55 L43,61 A3,3 0 0 1 40,64 L30,64 A3,3 0 0 1 27,61 L27,55 A3,3 0 0 1 30,52 Z" />
+    <!-- Button 2 (%) -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M44,52 L54,52 A3,3 0 0 1 57,55 L57,61 A3,3 0 0 1 54,64 L44,64 A3,3 0 0 1 41,55 L41,55 A3,3 0 0 1 44,52 Z" />
+    <!-- Button 3 (RAM badge / memory) -->
+    <path
+        android:fillColor="#0D9488"
+        android:pathData="M58,52 L68,52 A3,3 0 0 1 71,55 L71,61 A3,3 0 0 1 68,64 L58,64 A3,3 0 0 1 55,55 L55,55 A3,3 0 0 1 58,52 Z" />
+    <!-- Button 4 (÷) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M72,52 L80,52 A3,3 0 0 1 83,55 L83,61 A3,3 0 0 1 80,64 L72,64 A3,3 0 0 1 69,55 L69,55 A3,3 0 0 1 72,52 Z" />
+
+    <!-- Keypad row 2 -->
+    <!-- Button 5 (+) -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M30,68 L40,68 A3,3 0 0 1 43,71 L43,77 A3,3 0 0 1 40,80 L30,80 A3,3 0 0 1 27,77 L27,71 A3,3 0 0 1 30,68 Z" />
+    <path
+        android:fillColor="#334155"
+        android:pathData="M44,68 L54,68 A3,3 0 0 1 57,71 L57,77 A3,3 0 0 1 54,80 L44,80 A3,3 0 0 1 41,71 L41,71 A3,3 0 0 1 44,68 Z" />
+    <!-- Button 6 (x) -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M58,68 L68,68 A3,3 0 0 1 71,71 L71,77 A3,3 0 0 1 68,80 L58,80 A3,3 0 0 1 55,71 L55,71 A3,3 0 0 1 58,68 Z" />
+    <!-- Button 7 (=) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M72,68 L80,68 A3,3 0 0 1 83,71 L83,77 A3,3 0 0 1 80,80 L72,80 A3,3 0 0 1 69,71 L69,71 A3,3 0 0 1 72,68 Z" />
+
+    <!-- Plus / Minus / Equal glyph accents in white -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M73,73 L79,73 L79,74 L73,74 Z M73,76 L79,76 L79,77 L73,77 Z" />
+</vector>

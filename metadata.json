@@ -1,0 +1,6 @@
+{
+  "name": "Calc 8GB",
+  "description": "A smart pocket calculator with dedicated 8 GB mobile RAM monitor, memory converter, and system budgeting tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
